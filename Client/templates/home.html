@@ -1,0 +1,22 @@
+{{template "head"}}
+{{template "navbar_user"}}
+{{template "body"}}
+
+<div text-align="center">
+    <div class="hero-text">
+        <p>
+            <h2 style="color:darkcyan">Welcome back, {{.Username}}!</h2>
+            Previous Login: {{.Setting.PrevLogin}}<br>
+            Current Login: {{.Setting.CurrLogin}}
+            <hr>
+        </p>
+
+        <a href="/additem" class="btn btn-info" style="text-align:center">
+            <i class="far fa-plus-square fa-4x"></i><br>Add Item</a>
+            <!-- <a href="/addinv" class="btn btn-warning" style="text-align:center">
+                <i class="far fa-plus-square fa-4x"></i><br>Add Inventory</a> -->
+
+    </div>
+</div>
+
+{{template "footer"}}

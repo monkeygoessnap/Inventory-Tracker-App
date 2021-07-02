@@ -1,0 +1,71 @@
+INFO: 2021/07/01 04:32:12 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:32:12 setup.go:25: APIServer listening at port :8081
+INFO: 2021/07/01 04:33:01 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:33:01 setup.go:25: APIServer listening at port :8081
+INFO: 2021/07/01 04:34:29 api.go:68: Success ADD user
+INFO: 2021/07/01 04:35:01 api.go:68: Success ADD user
+INFO: 2021/07/01 04:35:14 api.go:46: Success GET user
+INFO: 2021/07/01 04:39:15 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:39:15 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:48:36 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:48:36 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:53:54 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:53:54 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:54:35 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:54:35 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:57:04 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:57:04 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:58:38 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:58:38 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 04:59:24 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 04:59:24 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:07:09 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:07:09 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:08:34 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:08:34 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:08:40 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:08:40 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:11:18 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:11:18 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:12:37 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:12:37 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:15:20 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:15:20 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:16:03 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:16:03 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:17:48 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:17:48 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:49:06 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:49:06 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:55:34 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:55:34 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 05:55:57 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 05:55:57 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 06:22:52 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 06:22:52 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 06:24:00 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 06:24:00 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 06:25:44 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 06:25:44 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 13:57:15 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 13:57:15 setup.go:25: Client listening at port :8081
+INFO: 2021/07/01 14:01:00 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:01:00 setup.go:27: Client listening at port :8081
+INFO: 2021/07/01 14:02:20 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:02:20 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:05:03 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:05:03 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:05:46 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:05:46 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:06:14 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:06:14 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:07:22 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:07:22 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:07:46 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:07:46 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:08:17 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:08:17 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:11:01 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:11:01 setup.go:24: Client listening at port :8081
+INFO: 2021/07/01 14:15:28 env.go:13: Successfully loaded .env file
+INFO: 2021/07/01 14:15:28 setup.go:24: Client listening at port :8081

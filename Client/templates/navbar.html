@@ -1,0 +1,46 @@
+{{define "navbar_index"}}
+
+<nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color: #3A3A3A">
+    <a class="navbar-brand" href="/"><img src="/static/images/logo_b.png" id="navlogo"></a>
+    <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/register">
+                    <i class="fa fa-plus-square"></i><br>Sign Up</a></li>
+                <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/login">
+                    <i class="fa fa-sign-in-alt"></i><br>Login</a></li>
+            </ul>
+    </div>
+</nav>
+
+{{end}}
+
+{{define "navbar_user"}}
+
+<nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color: #3A3A3A">
+    <a class="navbar-brand" href="/home"><img src="/static/images/logo_b.png" id="navlogo"></a>
+    <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto mt-2">
+            <!-- <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/invs">
+                <i class="fa fa-boxes"></i><br>Inventory</a></li> -->
+            <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/items">
+                <i class="fa fa-cookie-bite"></i><br>Items</a></li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/profile">
+                    <i class="fa fa-cog"></i><br>Profile</a></li>
+                <li class="nav-item" style="text-align: center;"><a class="nav-link" href="/logout">
+                    <i class="fa fa-door-open"></i><br>Logout</a></li>
+            </ul>
+    </div>
+</nav>
+
+{{end}}

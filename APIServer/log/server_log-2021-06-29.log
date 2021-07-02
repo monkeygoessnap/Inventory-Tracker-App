@@ -1,0 +1,63 @@
+INFO: 2021/06/29 06:33:25 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:42:35 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:43:48 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:44:23 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:44:25 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:45:17 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:45:29 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:45:34 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:46:19 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:46:55 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 06:46:56 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 19:08:59 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 19:09:08 log.go:41: Successfully loaded database
+INFO: 2021/06/29 19:09:08 log.go:41: APIServer listening at :8080
+INFO: 2021/06/29 21:36:29 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 21:36:29 log.go:41: Successfully loaded database
+INFO: 2021/06/29 21:36:29 log.go:41: APIServer listening at port :8080
+ERROR: 2021/06/29 21:36:29 log.go:51: listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+INFO: 2021/06/29 21:36:49 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 21:36:49 log.go:41: Successfully loaded database
+INFO: 2021/06/29 21:36:49 log.go:41: APIServer listening at port :8080
+ERROR: 2021/06/29 21:36:49 log.go:51: listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+INFO: 2021/06/29 21:37:28 log.go:41: Successfully loaded .env file
+INFO: 2021/06/29 21:37:28 log.go:41: Successfully loaded database
+INFO: 2021/06/29 21:37:28 log.go:41: APIServer listening at port :8080
+INFO: 2021/06/29 21:55:58 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 21:55:58 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 21:55:58 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 21:59:59 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 21:59:59 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 21:59:59 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:01:45 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:01:45 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:01:45 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:08:15 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:08:15 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:08:15 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:48:22 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:48:32 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:48:32 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:50:47 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:50:56 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:50:56 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:52:41 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:52:50 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:52:50 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 22:53:58 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 22:53:58 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 22:53:58 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 23:12:21 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 23:12:21 setup.go:44: Successfully loaded database
+INFO: 2021/06/29 23:12:21 setup.go:27: APIServer listening at port :8080
+INFO: 2021/06/29 23:39:12 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 23:39:12 setup.go:46: Successfully loaded database
+INFO: 2021/06/29 23:39:12 setup.go:25: APIServer listening at port :8080
+INFO: 2021/06/29 23:51:19 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 23:51:19 setup.go:46: Successfully loaded database
+INFO: 2021/06/29 23:51:19 setup.go:25: APIServer listening at port :8080
+WARNING: 2021/06/29 23:51:51 user.go:83: <nil>
+INFO: 2021/06/29 23:53:52 env.go:13: Successfully loaded .env file
+INFO: 2021/06/29 23:53:52 setup.go:46: Successfully loaded database
+INFO: 2021/06/29 23:53:52 setup.go:25: APIServer listening at port :8080
+WARNING: 2021/06/29 23:53:59 user.go:82: Error 1062: Duplicate entry 'admin' for key 'users.username'

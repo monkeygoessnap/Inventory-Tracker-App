@@ -1,0 +1,34 @@
+{{template "head"}}
+{{template "navbar_index"}}
+{{template "body"}}
+
+<div text-align="center">
+    <div class="hero-text">
+        {{if .}}
+        {{if eq . "success"}}
+        <div style="text-align:center;width:100%;background-color:lightgreen">{{.}}<br><a href="/login"><i class="fa fa-sign-in-alt"></i><br>Login here</a><hr></div>
+        {{else}}
+        <div style="text-align:center;width:100%;background-color:lightpink">{{.}}</div>
+        {{end}}
+        {{end}}
+        <h2>Sign Up</h2>
+        Keep track of your items with an account.<br>
+        *Required<br>
+        <form method="POST">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name ="username" placeholder="*Username" type="text" pattern="^[a-zA-Z0-9]+$" title="Only Alphanumerical Allowed" required>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name ="password" placeholder="*Password" type="password" pattern="^[a-zA-Z0-9]+$" title="Only Alphanumerical Allowed" required>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name ="phone" placeholder="*Phone eg. 81188118" type="tel" pattern="[89][0-9]{7}" title="Please enter valid 8digits phone number" required>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name ="email" placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </div>
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+{{template "footer"}}

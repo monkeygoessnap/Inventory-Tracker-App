@@ -1,0 +1,4 @@
+WARNING: 2021/07/02 02:27:03 item.go:15: Error 1241: Operand should contain 1 column(s)
+WARNING: 2021/07/02 05:55:45 usersetting.go:42: Error 1366: Incorrect integer value: '' for column 'noti_time' at row 1
+WARNING: 2021/07/02 08:59:51 usersetting.go:42: Error 1366: Incorrect integer value: '' for column 'noti_time' at row 1
+ERROR: 2021/07/02 21:43:44 setup.go:47: dial tcp 127.0.0.1:56990: connectex: No connection could be made because the target machine actively refused it.

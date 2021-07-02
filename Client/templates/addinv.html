@@ -1,0 +1,19 @@
+{{template "head"}}
+{{template "navbar_user"}}
+{{template "body"}}
+
+<div text-align="center">
+    <div class="hero-text">
+        <h2 style="color:darkcyan"><i class="fas fa-pallet"></i>Add Inventory</h2>
+        <form method="POST">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name ="name" placeholder="*Inventory Name" type="text" pattern="^[a-zA-Z0-9 ]+$" title="Only Alphanumerical Allowed" required>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name ="icon" placeholder="FontAwesomeIcon" type="text" pattern="^[a-zA-Z0-9- ]+$" title="Only Alphanumerical Allowed">
+            </div>
+            <button id="btn" type="submit">Add</button>
+        </form>
+    </div>
+</div>
+{{template "footer"}}

@@ -1,0 +1,26 @@
+{{template "head"}}
+{{template "navbar_index"}}
+{{template "body"}}
+
+<div text-align="center">
+    <div class="hero-text">
+        {{if .}}
+        {{if ne . "success"}}
+        <div style="text-align:center;width:100%;background-color:lightpink">{{.}}</div>
+        {{end}}
+        {{end}}
+        <h2>Login</h2>
+        *Required<br>
+        <form method="POST">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name ="username" placeholder="*Username" type="text" pattern="^[a-zA-Z0-9]+$" title="Only Alphanumerical Allowed" required>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name ="password" placeholder="*Password" type="password" pattern="^[a-zA-Z0-9]+$" title="Only Alphanumerical Allowed" required>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+{{template "footer"}}

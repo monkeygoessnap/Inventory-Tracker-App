@@ -1,0 +1,72 @@
+{{template "head"}}
+{{template "navbar_user"}}
+{{template "body"}}
+
+<script>
+    function searchFunc() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+    </script>
+
+<div text-align="center">
+
+    <h2 style="color:darkcyan">Items</h2>
+    <a href="/additem" class="btn btn-info" style="text-align:center">
+        <i class="far fa-plus-square"></i></a><br>
+    <i class="fas fa-search"></i><input style="width:100%;text-align:center" type="text" id="myInput" onkeyup="searchFunc()" placeholder="Search Items">
+
+    <table class="table table-hover" id="myTable">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Storage</th>
+            <th scope="col">Expiry</th>
+            <th scope="col">IdleSince</th>
+            <th scope="col">Notify (DaysBefore)</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            {{range $item := .}}
+            <tr>
+                <td>{{if $item.Icon}}<i class={{$item.Icon}}></i>{{end}}</td>
+                <td>{{$item.Name}}</th>
+                <td>{{$item.Category}}</td>
+                <td>{{$item.Storage}}</td>
+                <td>{{$item.Expiry | toDate}} | {{$item.Expiry | toDay}}</td>
+                <td>{{$item.Idle | toDate}}</td>
+                <td>{{if $item.Notify}}{{$item.Notify}}{{end}}</td>
+                <td>
+                    <form method="POST">
+                        <button style="color:white;background-color:darkcyan;border-radius:5px;border-color:white;"class="fas fa-pencil-alt" type="submit" value={{$item.ID}} name="edit"></button>
+                        <button style="color:white;background-color:red;border-radius:5px;border-color:white;"class="far fa-trash-alt" type="submit" value={{$item.ID}} name="delete"></button>
+                    </form>
+                </td>
+            </tr>
+            {{end}}
+        </tbody>
+      </table>
+
+
+
+</div>
+
+{{template "footer"}}

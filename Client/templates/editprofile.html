@@ -1,0 +1,40 @@
+{{template "head"}}
+{{template "navbar_user"}}
+{{template "body"}}
+
+<div text-align="center">
+    <div class="hero-text">
+        <p>
+            <h2 style="color:darkcyan"><i class="fas fa-user"></i> Profile</h2>
+            <form method="POST">
+            <div class="form-group">
+                Username<input autocomplete="off" class="form-control" name ="name" placeholder="" type="text" pattern="^[a-zA-Z0-9 ]+$" title="Only Alphanumerical Allowed"
+                value={{.Username}} required disabled>
+            </div>
+            <div class="form-group">
+                Phone<input autocomplete="off" class="form-control" name ="phone" placeholder="" type="text" pattern="[89][0-9]{7}" title="Please enter valid 8digits phone number"
+                {{if .Phone}} value={{.Phone}} {{end}} required>
+            </div>
+            <div class="form-group">
+                Email<input autocomplete="off" class="form-control" name ="email" placeholder="" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                {{if .Email}} value={{.Email}} {{end}}>
+            </div>
+            <div class="form-group">
+                Notify Time (0000 format)<input autocomplete="off" class="form-control" name ="notitime" placeholder="" type="text" pattern="[0-9]{4}" title="Only numerical Allowed"
+                {{if .Setting.NotiTime}}value={{.Setting.NotiTime}} {{end}}>
+            </div>
+            <div class="form-group">
+                Notify Settings: 
+                <select name="setting">
+                    <option value="1">Do not notify</option>
+                    <option value="2">Notify</option>
+
+                </select>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+            </form>
+        </p>
+    </div>
+</div>
+
+{{template "footer"}}
