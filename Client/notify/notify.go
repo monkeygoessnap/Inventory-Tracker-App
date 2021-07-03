@@ -23,6 +23,7 @@ import (
 func InitCron() {
 	c := cron.New()
 	//Hourly task scheduling
+	//@hourly initial setting
 	c.AddFunc("@hourly", func() {
 		usersid := checkUserToNotify()
 		log.Info.Println("Attemping to notify UserID(s) now:", usersid)
@@ -92,7 +93,7 @@ func parseMsg(userid uint32) string {
 	data, _ := api.ModelAllConv(api.GetAll(model, strconv.Itoa(int(userid))), model)
 	for _, v := range data.([]models.Item) {
 		if itemNotify(v) {
-			itemmsg := fmt.Sprintf("[%s] is expiring in [%v]days on [%s]", v.Name, v.Notify, toDate(v.Expiry))
+			itemmsg := fmt.Sprintf("%s is expiring in %v day(s) on %s !", v.Name, v.Notify, toDate(v.Expiry))
 			msg = append(msg, itemmsg)
 		}
 	}
@@ -132,9 +133,9 @@ func sendMsg(msg string, userid string) {
 		decoder := json.NewDecoder(resp.Body)
 		err := decoder.Decode(&data)
 		if err == nil {
-			log.Info.Println("twilio success", data["sid"])
+			log.Info.Println("twilio success", data["sid"], "UserID:", userid)
 		}
 	} else {
-		log.Info.Println("twilio error", resp.Status)
+		log.Info.Println("twilio error", resp.Status, "UserID", userid)
 	}
 }
