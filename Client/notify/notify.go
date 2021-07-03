@@ -102,6 +102,7 @@ func parseMsg(userid uint32) string {
 }
 
 //msg to tell the twilio api to send a msg to the fella
+//currently working for only test numbers in Twilio TrialMode
 func sendMsg(msg string, userid string) {
 	accountSid := os.Getenv("ACCOUNT_SID")
 	authToken := os.Getenv("AUTH_TOKEN")
